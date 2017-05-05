@@ -1,0 +1,8 @@
+
+platform :ios, ‘7.0’
+use_frameworks!  ## cocoapods 从0.38之后的版本开始，支持swift 了，当你在安装pods的时候，添加下面这句话就可以了
+                ## 1.1.0.beta.1(目前cocopods版本)
+target 'test_pop' do
+
+	pod 'pop'
+end
